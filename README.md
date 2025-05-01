@@ -29,7 +29,7 @@ struct My3DView: View {
 			path.move(to: Point3D(x: -50, y: -50, z: 0))
 			path.line(to: Point3D(x: 50, y: -50, z: 0))
 			path.line(to: Point3D(x: 50, y: 50, z: 0))
-			path.line(to: Point3D(x: -50, y: 50, z: 0)]))
+			path.line(to: Point3D(x: -50, y: 50, z: 0))
 
 			context.fill(
 				path,
